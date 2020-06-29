@@ -90,6 +90,12 @@ You can merge the different datasets through the ID fields, usually the Photo ID
 This way, you'll be able to cross-reference properties from the photos dataset with data from the keywords
 dataset for example.
 
+# Loading the dataset
+
+You can follow these examples to get ready with a usable dataset:
+ - [Loading the dataset in a PostgreSQL database](https://github.com/unsplash/research-datasets/tree/master/psql)
+ - More to come ...
+
 # Generating the dataset
 
 To keep things flexible, the process is composed of 2 steps:
