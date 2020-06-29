@@ -1,4 +1,11 @@
-# Research dataset
+# Datasets
+
+### Lite dataset
+
+The lite dataset is composed of data about 25.000 photos of nature.  
+[You can download the dataset here](https://unsplash-research-datasets.s3.amazonaws.com/research/2020-06-26-20-28-45/dataset-lite-2020-06-26.zip)
+
+# Datasets composition
 
 The Unsplash dataset is composed of multiple TSV files :
 
