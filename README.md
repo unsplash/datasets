@@ -94,4 +94,5 @@ dataset for example.
 
 You can follow these examples to get ready with a usable dataset:
  - [Loading the dataset in a PostgreSQL database](https://github.com/unsplash/research-datasets/tree/master/psql)
+ - [Loading the dataset in an Python environment](https://github.com/unsplash/research-datasets/tree/master/python)
  - More to come ...
