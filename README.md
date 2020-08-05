@@ -1,9 +1,38 @@
-# Datasets
+# The Unsplash Dataset
 
-### Lite dataset
+![](https://unsplash.com/blog/content/images/2020/08/dataheader.jpg)
 
-The lite dataset is composed of data about 25.000 photos of nature.  
-[You can download the dataset here](https://unsplash-research-datasets.s3.amazonaws.com/research/2020-06-29-18-17-12/dataset-lite-2020-06-29.zip)
+The Unsplash Dataset is made up of over 200,000+ contributing global photographers and data sourced from hundreds of millions searches across a nearly unlimited number of uses and contexts. Due to the breadth of intent and semantics contained within the Unsplash dataset, it enables new opportunities for research and learning.
+
+The Unsplash Dataset is offered in two datasets:
+
+- the Lite dataset: available for commercial and noncommercial usage, containing 25k nature-themed Unsplash photos, 25k keywords, and 1M searches
+- the Full dataset: available for noncommercial usage, containing 2M+ high-quality Unsplash photos, 5M keywords, and over 250M searches
+
+As the Unsplash library continues to grow, we’ll continue updating the dataset with new fields and new images.
+
+For more on the Unsplash Dataset, see [our announcement](https://unsplash.com/blog/the-unsplash-dataset/) and [site](https://unsplash.com/data).
+
+## Accessing the Lite dataset
+
+The Lite dataset contains all of the same fields as the Full dataset, but is limited to ~25,000 photos. It can be used for both commercial and non-commercial usage, provided you abide by the terms.
+
+[⬇️ You can download the Lite dataset here](https://unsplash-research-datasets.s3.amazonaws.com/research/2020-06-29-18-17-12/dataset-lite-2020-06-29.zip) [~550MB]
+
+## Accessing the Full dataset
+
+The Full dataset is for non-commercial usage only and all uses must abide by the terms. To access, please go to [unsplash.com/data](https://unsplash.com/data) and request access.
+
+## Dataset structure and fields
+
+See the docs folder for the documentation on what fields are included.
+
+----
+
+The Unsplash Dataset is made available for research purposes. To use the Unsplash library freely in a product, see [the Unsplash API](https://unsplash.com/developers).
+
+
+
 
 # Datasets composition
 
