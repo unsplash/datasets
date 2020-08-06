@@ -4,8 +4,8 @@ The dataset is contained in 4 separate TSV files.
 
 You can follow these examples to load the dataset in these common formats:
 
-- [Load the dataset in a PostgreSQL database](/unsplash/datasets/tree/master/how-to/psql)
-- [Load the dataset in an Python environment](/unsplash/datasets/tree/master/how-to/python)
+- [Load the dataset in a PostgreSQL database](https://github.com/unsplash/datasets/tree/master/how-to/psql)
+- [Load the dataset in an Python environment](https://github.com/unsplash/datasets/tree/master/how-to/python)
 
 ## Submit an example
 

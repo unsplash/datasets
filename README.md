@@ -15,25 +15,25 @@ For more on the Unsplash Dataset, see [our announcement](https://unsplash.com/bl
 
 ## Accessing the Lite dataset
 
-The Lite dataset contains all of the same fields as the Full dataset, but is limited to ~25,000 photos. It can be used for both commercial and non-commercial usage, provided you abide by [the terms](/unsplash/datasets/blob/master/TERMS.md).
+The Lite dataset contains all of the same fields as the Full dataset, but is limited to ~25,000 photos. It can be used for both commercial and non-commercial usage, provided you abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md).
 
 [⬇️ You can download the Lite dataset here](https://unsplash-research-datasets.s3.amazonaws.com/research/2020-06-29-18-17-12/dataset-lite-2020-06-29.zip) [~550MB]
 
 ## Accessing the Full dataset
 
-The Full dataset is available for non-commercial usage and all uses must abide by [the terms](/unsplash/datasets/blob/master/TERMS.md). To access, please go to [unsplash.com/data](https://unsplash.com/data) and request access.
+The Full dataset is available for non-commercial usage and all uses must abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md). To access, please go to [unsplash.com/data](https://unsplash.com/data) and request access.
 
 ## Dataset structure and fields
 
-See the [documentation for a complete list of tables and fields](/unsplash/datasets/blob/master/DOCS.md).
+See the [documentation for a complete list of tables and fields](https://github.com/unsplash/datasets/blob/master/DOCS.md).
 
 ## Loading the dataset
 
 You can follow these examples to load the dataset in these common formats:
 
-- [Load the dataset in a PostgreSQL database](/unsplash/datasets/tree/master/how-to/psql)
-- [Load the dataset in an Python environment](/unsplash/datasets/tree/master/how-to/python)
-- [Submit an example doc](/unsplash/datasets/blob/master/how-to/README.md#submit-an-example)
+- [Load the dataset in a PostgreSQL database](https://github.com/unsplash/datasets/tree/master/how-to/psql)
+- [Load the dataset in an Python environment](https://github.com/unsplash/datasets/tree/master/how-to/python)
+- [Submit an example doc](https://github.com/unsplash/datasets/blob/master/how-to/README.md#submit-an-example)
 
 ## Sharing your work
 
@@ -45,4 +45,4 @@ If you're using the dataset in a research paper, you can attribute the dataset a
 
 ----
 
-The Unsplash Dataset is made available for research purposes. [It cannot be used to redistribute the images contained within](/unsplash/datasets/blob/master/TERMS.md). To use the Unsplash library in a product, see [the Unsplash API](https://unsplash.com/developers).
+The Unsplash Dataset is made available for research purposes. [It cannot be used to redistribute the images contained within](https://github.com/unsplash/datasets/blob/master/TERMS.md). To use the Unsplash library in a product, see [the Unsplash API](https://unsplash.com/developers).
