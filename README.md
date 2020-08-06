@@ -19,7 +19,7 @@ For more on the Unsplash Dataset, see [our announcement](https://unsplash.com/bl
 
 The Lite dataset contains all of the same fields as the Full dataset, but is limited to ~25,000 photos. It can be used for both commercial and non-commercial usage, provided you abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md).
 
-[⬇️ Download the Lite dataset](https://unsplash-research-datasets.s3.amazonaws.com/research/2020-06-29-18-17-12/dataset-lite-2020-06-29.zip) [~550MB]
+[⬇️ Download the Lite dataset](https://crewlytics.s3.amazonaws.com/Unsplash+Research+Lite+25k+nature.zip) [~550MB]
 
 ### Full Dataset
 
