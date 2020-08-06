@@ -2,7 +2,7 @@
 
 ## Unzipping the dataset
 
-First of all, unzip the dataset in your preferred folder
+First, unzip the dataset in your preferred folder:
 
 ```sh
 $ unzip {dataset.zip}
@@ -10,8 +10,7 @@ $ unzip {dataset.zip}
 
 ## Creating tables in your database
 
-Run the queries described in [create_tables.sql](https://github.com/unsplash/research-datasets/blob/master/psql/create_tables.sql).
-You can also download the `create_tables.sql` file and run it:
+Run the queries from [create_tables.sql](https://github.com/unsplash/research-datasets/blob/master/psql/create_tables.sql). You can also download the `create_tables.sql` file and run it:
 
 ```sh
 $ psql -U {username} -d {database} -a -f create_tables.sql

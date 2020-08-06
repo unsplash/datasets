@@ -1,8 +1,6 @@
-# Data License Terms
+# Unsplash Dataset Terms
 
-*Please refer to [unsplash.com/data-terms](https://unsplash.com/data-terms) for the most up to date version of these terms.*
-
-These Data License Terms (these “**Terms**”) comprise a legal agreement between Unsplash Inc. (“**Unsplash**,” “**us**,” “**we**,” or “**our**”) and you, and describe the rules you must follow when accessing or using the Unsplash Lite Dataset or Full Dataset (each defined below, and collectively, “**Datasets**”) and related documentation made available by Unsplash to you as described below.
+These Unsplash Dataset Terms (these “**Terms**”) comprise a legal agreement between Unsplash Inc. (“**Unsplash**,” “**us**,” “**we**,” or “**our**”) and you, and describe the rules you must follow when accessing or using the Unsplash Lite Dataset or Full Dataset (each defined below, and collectively, “**Datasets**”) and related documentation made available by Unsplash to you as described below.
 
 BY CLICKING “I AGREE” OR DOWNLOADING OR OTHERWISE USING ANY DATASET, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTAND AND AGREE TO BE BOUND BY THESE TERMS.
 
