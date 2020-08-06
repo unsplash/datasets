@@ -9,7 +9,7 @@ The Unsplash Dataset is offered in two datasets:
 - the Lite dataset: available for commercial and noncommercial usage, containing 25k nature-themed Unsplash photos, 25k keywords, and 1M searches
 - the Full dataset: available for noncommercial usage, containing 2M+ high-quality Unsplash photos, 5M keywords, and over 250M searches
 
-As the Unsplash library continues to grow, we’ll continue updating the dataset with new fields and new images.
+As the Unsplash library continues to grow, we’ll release updates to the dataset with new fields and new images, with each subsequent release being [semantically versioned](https://semver.org/).
 
 For more on the Unsplash Dataset, see [our announcement](https://unsplash.com/blog/the-unsplash-dataset/) and [site](https://unsplash.com/data).
 
@@ -32,8 +32,16 @@ See the [documentation for a complete list of tables and fields](/unsplash/datas
 You can follow these examples to load the dataset in these common formats:
 
 - [Load the dataset in a PostgreSQL database](/unsplash/datasets/tree/master/how-to/psql)
-- [Loading the dataset in an Python environment](/unsplash/datasets/tree/master/how-to/python)
+- [Load the dataset in an Python environment](/unsplash/datasets/tree/master/how-to/python)
 - [Submit an example doc](/unsplash/datasets/tree/master/how-to/#submit-an-example)
+
+## Sharing your work
+
+We're making this data open and available with the hopes of enabling researchers and developers to discover interesting and useful connections in the data.
+
+We'd love to see what you create, whether that's a research paper, a machine learning model, a blog post, or just an interesting discovery in the data. Send us an email at [data@unsplash.com](mailto:data@unsplash.com).
+
+If you're using the dataset in a research paper, you can attribute the dataset as `Unsplash Lite Dataset 1.0` or `Unsplash Full Dataset 1.0` and link to the permalink [`unsplash.com/data`](https://unsplash.com/data).
 
 ----
 
