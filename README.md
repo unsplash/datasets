@@ -11,7 +11,7 @@ The Unsplash Dataset is offered in two datasets:
 
 As the Unsplash library continues to grow, we’ll release updates to the dataset with new fields and new images, with each subsequent release being [semantically versioned](https://semver.org/).
 
-We welcome any feedback regarding the content of the dataset or its format. With your feedback, we hope to close the gap between the data we provide and the data that you would like to leverage.
+We welcome any feedback regarding the content of the datasets or their format. With your input, we hope to close the gap between the data we provide and the data that you would like to leverage. You can [open an issue](https://github.com/unsplash/datasets/issues/new/choose) to report a problem or to let us know what you would like to see in the next release of the datasets.
 
 For more on the Unsplash Dataset, see [our announcement](https://unsplash.com/blog/the-unsplash-dataset/) and [site](https://unsplash.com/data).
 
