@@ -10,7 +10,7 @@ $ unzip {dataset.zip}
 
 ## Creating tables in your database
 
-Run the queries from [create_tables.sql](https://github.com/unsplash/research-datasets/blob/master/psql/create_tables.sql). You can also download the `create_tables.sql` file and run it:
+Run the queries from [create_tables.sql](/unsplash/datasets/blob/master/how-to/psql/create_tables.sql). You can also download the `create_tables.sql` file and run it:
 
 ```sh
 $ psql -U {username} -d {database} -a -f create_tables.sql
