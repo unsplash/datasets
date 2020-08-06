@@ -46,3 +46,5 @@ If you're using the dataset in a research paper, you can attribute the dataset a
 ----
 
 The Unsplash Dataset is made available for research purposes. [It cannot be used to redistribute the images contained within](https://github.com/unsplash/datasets/blob/master/TERMS.md). To use the Unsplash library in a product, see [the Unsplash API](https://unsplash.com/developers).
+
+![](https://unsplash.com/blog/content/images/2020/08/footer-alt.jpg)
