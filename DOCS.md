@@ -1,10 +1,10 @@
 # Unsplash Dataset Documentation
 
-The Unsplash dataset is composed of multiple TSV files:
+The Unsplash Dataset is composed of multiple TSV files:
 
 ## 1 - photos.tsv
 
-The `photos` dataset has one row per photo. It contains properties of the photo, the name of the contributor, the image URL, and overall stats.
+The `photos.tsv` dataset has one row per photo. It contains properties of the photo, the name of the contributor, the image URL, and overall stats.
 
 | Field                       | Description |
 |-----------------------------|-------------|
@@ -32,7 +32,7 @@ The `photos` dataset has one row per photo. It contains properties of the photo,
 
 ## 2 - keywords.tsv
 
-The `keywords` dataset has one row per photo-keyword pair. It contains data
+The `keywords.tsv` dataset has one row per photo-keyword pair. It contains data
 about how a keyword is connected to a photo and the conversions of the photo our search engine for a particular keyword.
 
 | Field                         | Description |
@@ -50,7 +50,7 @@ about how a keyword is connected to a photo and the conversions of the photo our
 
 *Note: A collection on Unsplash is a user created grouping of photos. These are similar to boards on Pinterest and can often group photos in complex and creative ways.*
 
-The `collections` dataset has one row per photo-collection pair. Whenever a photo
+The `collections.tsv` dataset has one row per photo-collection pair. Whenever a photo
 belongs to a collection created by a user, it will appear as one row. Each row describes
 when the photo was added to the collection and gives the title of the collection.
 
@@ -65,7 +65,7 @@ when the photo was added to the collection and gives the title of the collection
 
 *Note: a conversion is currently defined as a user selecting an image to download it.*
 
-The `conversions` dataset has one row per search conversion. The dataset tells you which photo has been downloaded for a search, the country of origin, and an anonymous identifier to indiciate the unique users.
+The `conversions.tsv` dataset has one row per search conversion. The dataset tells you which photo has been downloaded for a search, the country of origin, and an anonymous identifier to indiciate the unique users.
 
 | Field                         | Description |
 |-------------------------------|-------------|
@@ -82,4 +82,4 @@ You can merge the different datasets through the primary key ID fields (usually 
 
 ----
 
-For help loading the dataset, see the [how to docs](/unsplash/datasets/tree/master/how-to/).
+For help loading the dataset, see the [how to docs](https://github.com/unsplash/datasets/tree/master/how-to/).
