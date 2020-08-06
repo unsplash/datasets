@@ -11,6 +11,8 @@ The Unsplash Dataset is offered in two datasets:
 
 As the Unsplash library continues to grow, we’ll release updates to the dataset with new fields and new images, with each subsequent release being [semantically versioned](https://semver.org/).
 
+We welcome any feedback regarding the content of the dataset or its format. With your feedback, we hope to close the gap between the data we provide and the data that you would like to leverage.
+
 For more on the Unsplash Dataset, see [our announcement](https://unsplash.com/blog/the-unsplash-dataset/) and [site](https://unsplash.com/data).
 
 ## Download
@@ -19,7 +21,7 @@ For more on the Unsplash Dataset, see [our announcement](https://unsplash.com/bl
 
 The Lite dataset contains all of the same fields as the Full dataset, but is limited to ~25,000 photos. It can be used for both commercial and non-commercial usage, provided you abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md).
 
-[⬇️ Download the Lite dataset](https://crewlytics.s3.amazonaws.com/Unsplash+Research+Lite+25k+nature.zip) [~550MB]
+[⬇️ Download the Lite dataset](https://unsplash.com/data/lite/latest) [~550MB]
 
 ### Full Dataset
 
