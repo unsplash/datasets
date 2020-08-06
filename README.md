@@ -13,21 +13,23 @@ As the Unsplash library continues to grow, we’ll release updates to the datase
 
 For more on the Unsplash Dataset, see [our announcement](https://unsplash.com/blog/the-unsplash-dataset/) and [site](https://unsplash.com/data).
 
-## Accessing the Lite dataset
+## Download
+
+### Lite Dataset
 
 The Lite dataset contains all of the same fields as the Full dataset, but is limited to ~25,000 photos. It can be used for both commercial and non-commercial usage, provided you abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md).
 
-[⬇️ You can download the Lite dataset here](https://unsplash-research-datasets.s3.amazonaws.com/research/2020-06-29-18-17-12/dataset-lite-2020-06-29.zip) [~550MB]
+[⬇️ Download the Lite dataset](https://unsplash-research-datasets.s3.amazonaws.com/research/2020-06-29-18-17-12/dataset-lite-2020-06-29.zip) [~550MB]
 
-## Accessing the Full dataset
+### Full Dataset
 
 The Full dataset is available for non-commercial usage and all uses must abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md). To access, please go to [unsplash.com/data](https://unsplash.com/data) and request access.
 
-## Dataset structure and fields
+## Documentation
 
 See the [documentation for a complete list of tables and fields](https://github.com/unsplash/datasets/blob/master/DOCS.md).
 
-## Loading the dataset
+## Usage
 
 You can follow these examples to load the dataset in these common formats:
 
@@ -35,7 +37,7 @@ You can follow these examples to load the dataset in these common formats:
 - [Load the dataset in an Python environment](https://github.com/unsplash/datasets/tree/master/how-to/python)
 - [Submit an example doc](https://github.com/unsplash/datasets/blob/master/how-to/README.md#submit-an-example)
 
-## Sharing your work
+## Share your work
 
 We're making this data open and available with the hopes of enabling researchers and developers to discover interesting and useful connections in the data.
 
