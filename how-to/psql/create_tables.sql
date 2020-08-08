@@ -31,7 +31,7 @@ CREATE TABLE unsplash_photos (
 
 CREATE TABLE unsplash_keywords (
   photo_id varchar(11),
-  keyword varchar(255),
+  keyword text,
   ai_service_1_confidence float,
   ai_service_2_confidence float,
   suggested_by_user boolean,
