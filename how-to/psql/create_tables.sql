@@ -1,7 +1,7 @@
 /* SQL statements to create tables that will hold the research datasets */
 
 CREATE TABLE unsplash_photos (
-  photo_id varchar(11) PRIMARY KEy,
+  photo_id varchar(11) PRIMARY KEY,
   photo_url varchar(255),
   photo_image_url varchar(255),
   photo_submitted_at timestamp,
