@@ -1,7 +1,7 @@
 /* SQL statements to create tables that will hold the research datasets */
 
 CREATE TABLE unsplash_photos (
-  photo_id integer PRIMARY KEY,
+  photo_id varchar(11) PRIMARY KEY,
   photo_url varchar(255),
   photo_image_url varchar(255),
   photo_submitted_at timestamp,
@@ -31,7 +31,7 @@ CREATE TABLE unsplash_photos (
 
 CREATE TABLE unsplash_keywords (
   photo_id varchar(11),
-  keyword varchar(255),
+  keyword text,
   ai_service_1_confidence float,
   ai_service_2_confidence float,
   suggested_by_user boolean,
