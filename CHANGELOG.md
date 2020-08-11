@@ -4,6 +4,6 @@
 
 Fix:
 
-  - AI landmarks were always empty: https://github.com/unsplash/datasets/issues/13
+  - [#13](https://github.com/unsplash/datasets/issues/13): AI landmarks were always empty.
   - Some landmark names were blank instead of NULL
-  - Removed duplicated photo id 'zV2-QjJqkI' in the Full Dataset
+  - Removed duplicated photo id `zV2-QjJqkI` in the Full Dataset
