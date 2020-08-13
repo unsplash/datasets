@@ -25,7 +25,7 @@ The Lite dataset contains all of the same fields as the Full dataset, but is lim
 
 ### Full Dataset
 
-The Full dataset is available for non-commercial usage and all uses must abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md). To access, please go to [unsplash.com/data](https://unsplash.com/data) and request access.
+The Full dataset is available for non-commercial usage and all uses must abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md). To access, please go to [unsplash.com/data](https://unsplash.com/data) and request access. The dataset weighs ~16GB.
 
 ## Documentation
 
