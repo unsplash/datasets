@@ -5,7 +5,7 @@ CREATE TABLE unsplash_photos (
   photo_url varchar(255),
   photo_image_url varchar(255),
   photo_submitted_at timestamp,
-  photo_featured varchar(255),
+  photo_featured boolean,
   photographer_username varchar(255),
   photographer_first_name varchar(255),
   photographer_last_name varchar(255),
