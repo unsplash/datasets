@@ -11,7 +11,7 @@
 **Lite dataset link:**
 
   - Version link: [Version 1.0.1](https://unsplash.com/data/lite/1.0.1)
-  - Lite dataset links now follow the pattern `https://unsplash.com/data/lite/{version}` (starting at `1.0.1`)
+  - Lite dataset links now follow the pattern `https://unsplash.com/data/lite/{version}`
 
 **Integrity checks (SHA-256):**
   - Lite: `aa199951dd8756563f7ffef4abbc2d20c845bcff62241ae677af523728819d60`
