@@ -78,6 +78,23 @@ The `conversions.tsv` dataset has one row per search conversion. The dataset tel
 | anonymous_user_id             | Anonymous user ID |
 | conversion_country            | Country code of the device geolocation |
 
+## 5 - colors.tsv
+
+*Note: The coverage and score data comes from a 3rd party AI*
+
+The `colors.tsv` dataset has one row per major color present in the photo. The dataset tells you which photo contains which colors and by how much its covering it as well as how much focus the color has (score).
+
+| Field                     | Description |
+|---------------------------|-------------|
+| photo_id                  | ID of the Unsplash photo |
+| hex                       | Hexadecimal representation of the color |
+| red                       | Red component of the photo in the RGB system |
+| green                     | Green component of the photo in the RGB system |
+| blue                      | Blue component of the photo in the RGB system |
+| keyword                   | Name of the closest color as a [CSS color keyword](https://www.w3schools.com/cssref/css_colors.asp) |
+| coverage                  | Pixel coverage of the color as a percentage |
+| score                     | Score of the color in the photo (including the notion of focus) |
+
 ## Combining datasets
 
 You can merge the different datasets through the primary key ID fields (usually the `photo_id` field). With this you'll be able to cross-reference properties from the photos dataset with data from the keywords or conversions dataset.
