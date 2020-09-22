@@ -29,3 +29,11 @@ WITH (
   DELIMITER E'\t',
   HEADER false
 );
+
+COPY unsplash_colors
+FROM PROGRAM 'awk FNR-1 {path}/colors.tsv* | cat'
+WITH (
+  FORMAT csv,
+  DELIMITER E'\t',
+  HEADER false
+);

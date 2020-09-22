@@ -54,3 +54,15 @@ CREATE TABLE unsplash_conversions (
   anonymous_user_id varchar(255),
   conversion_country varchar(2)
 );
+
+CREATE TABLE unsplash_colors (
+  photo_id varchar(11),
+  hex varchar(6),
+  red integer,
+  green integer,
+  blue integer,
+  keyword varchar(255),
+  ai_coverage float,
+  ai_score float,
+  PRIMARY KEY (photo_id, hex)
+);
