@@ -86,7 +86,7 @@ The `conversions.tsv` dataset has one row per search conversion. The dataset tel
 
 *Note: The coverage and score data comes from a 3rd party AI*
 
-The `colors.tsv` dataset has one row per major color present in the photo. The dataset tells you which photo contains which colors and by how much its covering it as well as how much focus the color has (score).
+The `colors.tsv` dataset has one row per major color present in the photo. The dataset tells which colors are contained within a photo, their coverage as a percentage, and a score for how in focus the color is.
 
 | Field                     | Description |
 |---------------------------|-------------|
