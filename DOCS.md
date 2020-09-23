@@ -13,8 +13,8 @@ The `photos.tsv` dataset has one row per photo. It contains properties of the ph
 | photo_image_url                | URL of the image file. Note: this is a [dynamic URL](https://unsplash.com/documentation#dynamically-resizable-images), so you can apply [resizing and customization operations directly on the image](https://unsplash.com/documentation#supported-parameters) |
 | photo_submitted_at             | Timestamp of when the photo was submitted to Unsplash |
 | photo_featured                 | Whether the photo was promoted to the [Editorial feed](https://unsplash.com/) or not |
-| photo_width                    | Width of the photo |
-| photo_height                   | Height of the photo |
+| photo_width                    | Width of the photo in pixels |
+| photo_height                   | Height of the photo in pixels |
 | photo_aspect_ratio             | Aspect ratio of the photo |
 | photo_description              | Description of the photo written by the photographer |
 | photographer_username          | Username of the photographer on Unsplash |
