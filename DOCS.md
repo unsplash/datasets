@@ -16,6 +16,7 @@ The `photos.tsv` dataset has one row per photo. It contains properties of the ph
 | photo_width                    | Width of the photo |
 | photo_height                   | Height of the photo |
 | photo_aspect_ratio             | Aspect ratio of the photo |
+| photo_description              | Description of the photo written by the photographer |
 | photographer_username          | Username of the photographer on Unsplash |
 | photographer_first_name        | First name of the photographer |
 | photographer_last_name         | Last name of the photographer |

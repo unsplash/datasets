@@ -9,6 +9,7 @@ CREATE TABLE unsplash_photos (
   photo_width integer,
   photo_height integer,
   photo_aspect_ratio float,
+  photo_description text,
   photographer_username varchar(255),
   photographer_first_name varchar(255),
   photographer_last_name varchar(255),
