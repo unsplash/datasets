@@ -1,5 +1,21 @@
 # CHANGELOG.md
 
+## 1.1.0 (2020-09-23)
+
+**New:**
+- [#10](https://github.com/unsplash/datasets/issues/10): Included user descriptions of the photos 
+- [#21](https://github.com/unsplash/datasets/issues/21): Included width, height and aspect ratio of photos
+- [#22](https://github.com/unsplash/datasets/issues/22): Included colors data from photos, coming from a 3rd party AI
+
+**Fix:**
+
+- [#13](https://github.com/unsplash/datasets/issues/13): Trimmed [some fields](https://github.com/unsplash/datasets/issues/13#issuecomment-674709294).
+- [#29](https://github.com/unsplash/datasets/issues/29): Replaced newlines in keywords file by spaces to avoid CSV importation issues
+
+**Data:**
+- Replaced 307 deleted photos in the Lite dataset with new approved photos
+- Removed about 17k deleted photos in the Full dataset
+
 ## 1.0.1 (2020-08-11)
 
 **Fix:**
