@@ -15,6 +15,16 @@
 **Data:**
 - Replaced 307 deleted photos in the Lite dataset with new approved photos
 - Removed about 17k deleted photos in the Full dataset
+- Updated conversions data with latest conversions
+
+**Lite dataset link:**
+
+  - Version link: [Version 1.1.0](https://unsplash.com/data/lite/1.1.0)
+  - Lite dataset links now follow the pattern `https://unsplash.com/data/lite/{version}`
+
+**Integrity checks (SHA-256):**
+  - Lite: `b5c8a8e278ae4e9a742b94d256c9b8161a62de503bd8fbed2ab8a3c9ed0641ac`
+  - Full: `ca06e269dea6c64885cd20e2f0a74d5fdf969a824a82eb0d46fab73a7a4dedf5`
 
 ## 1.0.1 (2020-08-11)
 
