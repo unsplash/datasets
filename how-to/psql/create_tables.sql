@@ -6,6 +6,10 @@ CREATE TABLE unsplash_photos (
   photo_image_url varchar(255),
   photo_submitted_at timestamp,
   photo_featured boolean,
+  photo_width integer,
+  photo_height integer,
+  photo_aspect_ratio float,
+  photo_description text,
   photographer_username varchar(255),
   photographer_first_name varchar(255),
   photographer_last_name varchar(255),
@@ -53,4 +57,16 @@ CREATE TABLE unsplash_conversions (
   photo_id varchar(11),
   anonymous_user_id varchar(255),
   conversion_country varchar(2)
+);
+
+CREATE TABLE unsplash_colors (
+  photo_id varchar(11),
+  hex varchar(6),
+  red integer,
+  green integer,
+  blue integer,
+  keyword varchar(255),
+  ai_coverage float,
+  ai_score float,
+  PRIMARY KEY (photo_id, hex)
 );

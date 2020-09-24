@@ -13,6 +13,10 @@ The `photos.tsv` dataset has one row per photo. It contains properties of the ph
 | photo_image_url                | URL of the image file. Note: this is a [dynamic URL](https://unsplash.com/documentation#dynamically-resizable-images), so you can apply [resizing and customization operations directly on the image](https://unsplash.com/documentation#supported-parameters) |
 | photo_submitted_at             | Timestamp of when the photo was submitted to Unsplash |
 | photo_featured                 | Whether the photo was promoted to the [Editorial feed](https://unsplash.com/) or not |
+| photo_width                    | Width of the photo in pixels |
+| photo_height                   | Height of the photo in pixels |
+| photo_aspect_ratio             | Aspect ratio of the photo |
+| photo_description              | Description of the photo written by the photographer |
 | photographer_username          | Username of the photographer on Unsplash |
 | photographer_first_name        | First name of the photographer |
 | photographer_last_name         | Last name of the photographer |
@@ -77,6 +81,23 @@ The `conversions.tsv` dataset has one row per search conversion. The dataset tel
 | photo_id                      | Photo ID of the photo that converted |
 | anonymous_user_id             | Anonymous user ID |
 | conversion_country            | Country code of the device geolocation |
+
+## 5 - colors.tsv
+
+*Note: The coverage and score data comes from a 3rd party AI*
+
+The `colors.tsv` dataset has one row per major color present in the photo. The dataset tells which colors are contained within a photo, their coverage as a percentage, and a score for how in focus the color is.
+
+| Field                     | Description |
+|---------------------------|-------------|
+| photo_id                  | ID of the Unsplash photo |
+| hex                       | Hexadecimal representation of the color |
+| red                       | Red component of the photo in the RGB system |
+| green                     | Green component of the photo in the RGB system |
+| blue                      | Blue component of the photo in the RGB system |
+| keyword                   | Name of the closest color as a [CSS color keyword](https://www.w3schools.com/cssref/css_colors.asp) |
+| coverage                  | Pixel coverage of the color as a percentage |
+| score                     | Score of the color in the photo (including the notion of focus) |
 
 ## Combining datasets
 
