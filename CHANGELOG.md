@@ -20,11 +20,10 @@
 **Lite dataset link:**
 
   - Version link: [Version 1.1.0](https://unsplash.com/data/lite/1.1.0)
-  - Lite dataset links now follow the pattern `https://unsplash.com/data/lite/{version}`
 
 **Integrity checks (SHA-256):**
-  - Lite: `b5c8a8e278ae4e9a742b94d256c9b8161a62de503bd8fbed2ab8a3c9ed0641ac`
-  - Full: `ca06e269dea6c64885cd20e2f0a74d5fdf969a824a82eb0d46fab73a7a4dedf5`
+  - Lite: `a489dbb7fc547832728ea9ae8c9f72a3649faefcb84142a1875f37815525c20f`
+  - Full: `19abc3494bda06e36e61ccabf4dd2ca8e046ac50a5e4e3570cc8aa89ed6a9713`
 
 ## 1.0.1 (2020-08-11)
 
