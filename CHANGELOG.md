@@ -15,7 +15,7 @@
 **Data:**
 - Replaced 307 deleted photos in the Lite dataset with new approved photos
 - Removed about 17k deleted photos in the Full dataset
-- Updated conversions data with latest conversions
+- Updated conversions data with latest conversions. Full dataset now weighs ~25GB (vs. 16GB)
 
 **Lite dataset link:**
 
