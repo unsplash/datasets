@@ -45,7 +45,7 @@ We're making this data open and available with the hopes of enabling researchers
 
 We'd love to see what you create, whether that's a research paper, a machine learning model, a blog post, or just an interesting discovery in the data. Send us an email at [data@unsplash.com](mailto:data@unsplash.com).
 
-If you're using the dataset in a research paper, you can attribute the dataset as `Unsplash Lite Dataset 1.0` or `Unsplash Full Dataset 1.0` and link to the permalink [`unsplash.com/data`](https://unsplash.com/data).
+If you're using the dataset in a research paper, you can attribute the dataset as `Unsplash Lite Dataset 1.1.0` or `Unsplash Full Dataset 1.1.0` and link to the permalink [`unsplash.com/data`](https://unsplash.com/data).
 
 ----
 
