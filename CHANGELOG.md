@@ -22,7 +22,7 @@
   - Version link: [Version 1.1.0](https://unsplash.com/data/lite/1.1.0)
 
 **Integrity checks (SHA-256):**
-  - Lite: `a489dbb7fc547832728ea9ae8c9f72a3649faefcb84142a1875f37815525c20f`
+  - Lite: `266e45a8658ab2456779b3376b109e435e595646126846603f2efee5b47ee526`
   - Full: `19abc3494bda06e36e61ccabf4dd2ca8e046ac50a5e4e3570cc8aa89ed6a9713`
 
 ## 1.0.1 (2020-08-11)
