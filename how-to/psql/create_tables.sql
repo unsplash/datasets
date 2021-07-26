@@ -30,7 +30,8 @@ CREATE TABLE unsplash_photos (
   ai_primary_landmark_name varchar(255),
   ai_primary_landmark_latitude float,
   ai_primary_landmark_longitude float,
-  ai_primary_landmark_confidence varchar(255)
+  ai_primary_landmark_confidence varchar(255),
+  blur_hash varchar(255)
 );
 
 CREATE TABLE unsplash_keywords (
