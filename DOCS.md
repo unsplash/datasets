@@ -49,9 +49,9 @@ about how a keyword is connected to a photo and the conversions of the photo our
 |-------------------------------|-------------|
 | photo_id                      | ID of the Unsplash photo |
 | keyword                       | Keyword or search term |
-| ai_service_1_confidence       | Confidence for the keyword from a 3rd party AI |
-| ai_service_2_confidence       | Confidence for the keyword from another 3rd party AI |
-| suggested_by_user             | Whether the keyword was added by a user (a human) |
+| ai_service_1_confidence       | Confidence for the keyword from a 3rd party AI (0-100)|
+| ai_service_2_confidence       | Confidence for the keyword from another 3rd party AI (0-100)|
+| suggested_by_user             | Whether the keyword was added by a user (human) |
 
 ## 3 - collections.tsv
 
