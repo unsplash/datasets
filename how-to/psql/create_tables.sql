@@ -45,7 +45,7 @@ CREATE TABLE unsplash_keywords (
 
 CREATE TABLE unsplash_collections (
   photo_id varchar(11),
-  collection_id integer,
+  collection_id varchar(11),
   collection_title text,
   photo_collected_at timestamp,
   PRIMARY KEY (photo_id, collection_id)
