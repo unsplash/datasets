@@ -1,17 +1,21 @@
 # CHANGELOG.md
 
-## 1.2.0 (2021-07-29)
+## 1.2.0 (2021-07-30)
 
 **New:**
 
-  - Included [BlurHash](https://blurha.sh/) of each photo in the dataset
+  - [#36](https://github.com/unsplash/datasets/issues/36): Included [BlurHash](https://blurha.sh/) of each photo in the dataset
+
+**Fix:**
+
+  - [#39](https://github.com/unsplash/datasets/issues/39): Fixed AI confidence for AI keywords
 
 **Data:**
 
   - Added more search conversions
   - Historical data for search conversions will now be limited to 1 year before each version's release date.
   - Added ~1M photos to the Full Dataset.
-  - Replaced all the dead photos (removed from Unsplash) in the Lite Dataset with approved photos
+  - Replaced 794 dead photos (removed from Unsplash) in the Lite Dataset with approved photos
 
 **Lite dataset link:**
 
@@ -19,8 +23,8 @@
 
 **Integrity checks (SHA-256):**
 
-  - Lite: ``
-  - Full: ``
+  - Lite: `461fa4a1796b7966fc3aa904ce2e7f18890323243ed0e95f47c7042b335fcd98`
+  - Full: `daa99dab8ba7a47d530356311ffa73f17eb403898a75399c54812e9dd582f8af`
 
 ## 1.1.0 (2020-09-23)
 
