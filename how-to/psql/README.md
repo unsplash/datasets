@@ -22,7 +22,7 @@ To load the data, you can use one of the following approaches. In any case you w
 
 ### Server loading
 
-If you are loading the data directly on the PosggreSQL database host, then you can use [load-data-server.sql](load-data-server.sql). Make sure to replace `{path}` with the full directory to the files. No relative paths.
+If you are loading the data directly on the PostgreSQL database host, then you can use [load-data-server.sql](load-data-server.sql). Make sure to replace `{path}` with the full directory to the files. No relative paths.
 
 ```sh
 $ psql -U {username} -d {database} -f load-data-server.sql
