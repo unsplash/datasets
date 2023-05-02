@@ -10,7 +10,7 @@
 
   - Added 1.5M+ photos to the dataset
   - Removed unavailable photos (that are removed from the platform)
-  - The `conversions` period is now from `2022-04-27` to `2023-04-27`
+  - The `conversions` period is now from `2022-05-01` to `2023-05-01`
 
 **Lite dataset link:**
 
