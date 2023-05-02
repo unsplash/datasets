@@ -23,15 +23,6 @@
 
 ## 1.2.0 (2021-07-30)
 
-**Lite dataset link:**
-
-  - Version link: [Version 1.2.0](https://unsplash.com/data/lite/1.2.0)
-
-**Integrity checks (SHA-256):**
-
-  - Lite: `461fa4a1796b7966fc3aa904ce2e7f18890323243ed0e95f47c7042b335fcd98`
-  - Full: `daa99dab8ba7a47d530356311ffa73f17eb403898a75399c54812e9dd582f8af`
-
 **New:**
 
   - [#36](https://github.com/unsplash/datasets/issues/36): Included [BlurHash](https://blurha.sh/) of each photo in the dataset
