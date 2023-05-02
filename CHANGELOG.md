@@ -20,8 +20,8 @@
 
 **Integrity checks (SHA-256):**
 
-  - Lite: ``
-  - Full: ``
+  - Lite: `d29a13678f1cc3a3e706897b0a8dbbdb5837715b0d78d0492b68b9b5e96b03db`
+  - Full: `3879c4f20897e564708e7da41a55f505eb6bbb13e37dbb62ae451af9782c8d87`
 
 **New:**
 
