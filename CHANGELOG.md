@@ -2,6 +2,10 @@
 
 ## 1.2.1 (2023-05-01)
 
+**Fix:**
+
+  - [#46](https://github.com/unsplash/datasets/issues/46): Fixed some wrong photo URLs
+
 **Data:**
 
   - Added 1.5M+ photos to the dataset
