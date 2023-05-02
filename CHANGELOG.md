@@ -1,6 +1,27 @@
 # CHANGELOG.md
 
+## 1.2.1 (2023-05-01)
+
+**Fix:**
+
+  - [#46](https://github.com/unsplash/datasets/issues/46): Fixed some wrong photo URLs
+
+**Data:**
+
+  - Added 1.5M+ photos to the dataset
+  - Removed unavailable photos (that are removed from the platform)
+  - The `conversions` period is now from `2022-04-27` to `2023-04-27`
+
 ## 1.2.0 (2021-07-30)
+
+**Lite dataset link:**
+
+  - Version link: [Version 1.2.1](https://unsplash.com/data/lite/1.2.1)
+
+**Integrity checks (SHA-256):**
+
+  - Lite: `d29a13678f1cc3a3e706897b0a8dbbdb5837715b0d78d0492b68b9b5e96b03db`
+  - Full: `3879c4f20897e564708e7da41a55f505eb6bbb13e37dbb62ae451af9782c8d87`
 
 **New:**
 

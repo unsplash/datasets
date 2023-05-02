@@ -2,12 +2,12 @@
 
 ![](https://unsplash.com/blog/content/images/2020/08/dataheader.jpg)
 
-The Unsplash Dataset is made up of over 250,000+ contributing global photographers and data sourced from hundreds of millions of searches across a nearly unlimited number of uses and contexts. Due to the breadth of intent and semantics contained within the Unsplash dataset, it enables new opportunities for research and learning.
+The Unsplash Dataset is made up of over 330,000+ contributing global photographers and data sourced from hundreds of millions of searches across a nearly unlimited number of uses and contexts. Due to the breadth of intent and semantics contained within the Unsplash dataset, it enables new opportunities for research and learning.
 
 The Unsplash Dataset is offered in two datasets:
 
 - the Lite dataset: available for commercial and noncommercial usage, containing 25k nature-themed Unsplash photos, 25k keywords, and 1M searches
-- the Full dataset: available for noncommercial usage, containing 3M+ high-quality Unsplash photos, 5M keywords, and over 250M searches
+- the Full dataset: available for noncommercial usage, containing 4.8M+ high-quality Unsplash photos, 5M keywords, and over 250M searches
 
 As the Unsplash library continues to grow, we’ll release updates to the dataset with new fields and new images, with each subsequent release being [semantically versioned](https://semver.org/).
 
@@ -21,11 +21,11 @@ For more on the Unsplash Dataset, see [our announcement](https://unsplash.com/bl
 
 The Lite dataset contains all of the same fields as the Full dataset, but is limited to ~25,000 photos. It can be used for both commercial and non-commercial usage, provided you abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md).
 
-[⬇️ Download the Lite dataset](https://unsplash.com/data/lite/latest) [~650MB compressed, ~1.4GB raw]
+[⬇️ Download the Lite dataset](https://unsplash.com/data/lite/latest) [~700MB compressed, ~1.5GB raw]
 
 ### Full Dataset
 
-The Full dataset is available for non-commercial usage and all uses must abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md). To access, please go to [unsplash.com/data](https://unsplash.com/data) and request access. The dataset weighs ~20 GB compressed (~43GB raw)).
+The Full dataset is available for non-commercial usage and all uses must abide by [the terms](https://github.com/unsplash/datasets/blob/master/TERMS.md). To access, please go to [unsplash.com/data](https://unsplash.com/data) and request access. The dataset weighs ~20 GB compressed (~50GB raw)).
 
 ## Documentation
 
@@ -45,7 +45,7 @@ We're making this data open and available with the hopes of enabling researchers
 
 We'd love to see what you create, whether that's a research paper, a machine learning model, a blog post, or just an interesting discovery in the data. Send us an email at [data@unsplash.com](mailto:data@unsplash.com).
 
-If you're using the dataset in a research paper, you can attribute the dataset as `Unsplash Lite Dataset 1.2.0` or `Unsplash Full Dataset 1.2.0` and link to the permalink [`unsplash.com/data`](https://unsplash.com/data).
+If you're using the dataset in a research paper, you can attribute the dataset as `Unsplash Lite Dataset 1.2.1` or `Unsplash Full Dataset 1.2.1` and link to the permalink [`unsplash.com/data`](https://unsplash.com/data).
 
 ----
 
