@@ -1,6 +1,6 @@
 # CHANGELOG.md
 
-## 1.2.2 (2024-02-06)
+## 1.2.2 (2024-02-09)
 
 **Data:**
 
@@ -15,7 +15,7 @@
 **Integrity checks (SHA-256):**
 
   - Lite: `c187e0f24320bb32dc2acd3c387ca57c06cf5f52369816df4ab27f3cdf30e8de`
-  - Full: ``
+  - Full: `7783f029dc12eb54289bbb7be98acaaa585dad9ddcec44641213eed94119918c`
 
 ## 1.2.1 (2023-05-02)
 
