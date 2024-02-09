@@ -1,5 +1,22 @@
 # CHANGELOG.md
 
+## 1.2.2 (2024-02-09)
+
+**Data:**
+
+  - Added 600k+ photos to the dataset (submitted up to `2024-01-01`)
+  - Removed unavailable photos (that are removed from the platform)
+  - The `conversions` period is now from `2023-01-01` to `2024-01-01`
+
+**Lite dataset link:**
+
+  - Version link: [Version 1.2.2](https://unsplash.com/data/lite/1.2.2)
+
+**Integrity checks (SHA-256):**
+
+  - Lite: `c187e0f24320bb32dc2acd3c387ca57c06cf5f52369816df4ab27f3cdf30e8de`
+  - Full: `7783f029dc12eb54289bbb7be98acaaa585dad9ddcec44641213eed94119918c`
+
 ## 1.2.1 (2023-05-02)
 
 **Fix:**
