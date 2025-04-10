@@ -52,14 +52,16 @@ about how a keyword is connected to a photo and the conversions of the photo our
 | ai_service_1_confidence       | Confidence for the keyword from a 3rd party AI (0-100)|
 | ai_service_2_confidence       | Confidence for the keyword from another 3rd party AI (0-100)|
 | suggested_by_user             | Whether the keyword was added by a user (human) |
+| user_suggestion_source        | The type of user that suggested or set the keyword (photographer, admin or unknown) |
 
 ## 3 - collections.tsv
 
-*Note: A collection on Unsplash is a user created grouping of photos. These are similar to boards on Pinterest and can often group photos in complex and creative ways.*
+*Note: A collection on Unsplash is a user created grouping of photos. These are similar to boards on Pinterest and can often group photos in complex and creative ways. Another type of collection is topics. Topics are different content-specific photo feeds available
+on the website*
 
-The `collections.tsv` dataset has one row per photo-collection pair. Whenever a photo
-belongs to a collection created by a user, it will appear as one row. Each row describes
-when the photo was added to the collection and gives the title of the collection.
+The `collections.tsv` dataset has one row per photo-collection/topic pair. Whenever a photo
+belongs to a collection or a topic, it will appear as one row. Each row describes
+when the photo was added to the collection/topic and gives the title of the collection/topic.
 
 | Field                         | Description |
 |-------------------------------|-------------|
@@ -67,6 +69,7 @@ when the photo was added to the collection and gives the title of the collection
 | collection_id                 | ID of the Unsplash collection containing the photo |
 | collection_title              | Title of the collection containing the photo |
 | photo_collected_at            | Timestamp of when the photo was added to the collection |
+| collection_type               | Type of the collection (collection or topic) |
 
 ## 4 - conversions.tsv
 
