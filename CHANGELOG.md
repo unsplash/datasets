@@ -1,5 +1,31 @@
 # CHANGELOG.md
 
+## 1.3.0 (2025-04-16)
+
+**Fix:**
+
+  - [#63](https://github.com/unsplash/datasets/issues/63): Longitude and latitude no longer swapped
+
+**New:**
+
+  - Added `user_suggestion_source` in the `keywords` dataset
+  - Added Unsplash topics in the `collections` dataset (check `collection_type`)
+
+**Data:**
+
+  - Added 1.4M+ photos to the dataset (submitted up to `2025-01-01`)
+  - Removed unavailable photos (that are removed from the platform)
+  - The `conversions` period is now from `2024-01-01` to `2025-01-01`
+
+**Lite dataset link:**
+
+  - Version link: [Version 1.3.0](https://unsplash.com/data/lite/1.3.0)
+
+**Integrity checks (SHA-256):**
+
+  - Lite: `c3c09225c4aee1c62cee1e7032db879d10b84407ed2953c2abf77dc6ca4c4ade`
+  - Full: `4ad1a3cb2b38529529f92bdc9ab4237a8b9b1153f1d615ff136581297ed5b58d`
+
 ## 1.2.2 (2024-02-09)
 
 **Data:**
