@@ -40,6 +40,7 @@ CREATE TABLE unsplash_keywords (
   ai_service_1_confidence float,
   ai_service_2_confidence float,
   suggested_by_user boolean,
+  user_suggestion_source varchar(255),
   PRIMARY KEY (photo_id, keyword)
 );
 
@@ -48,6 +49,7 @@ CREATE TABLE unsplash_collections (
   collection_id varchar(11),
   collection_title text,
   photo_collected_at timestamp,
+  collection_type varchar(255),
   PRIMARY KEY (photo_id, collection_id)
 );
 
