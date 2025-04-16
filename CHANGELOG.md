@@ -16,6 +16,7 @@
   - Added 1.4M+ photos to the dataset (submitted up to `2025-01-01`)
   - Removed unavailable photos (that are removed from the platform)
   - The `conversions` period is now from `2024-01-01` to `2025-01-01`
+  - Added a minimum 40% confidence threshold for AI tags to appear in the dataset
 
 **Lite dataset link:**
 
