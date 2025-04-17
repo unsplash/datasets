@@ -2,12 +2,12 @@
 
 ![](https://unsplash.com/blog/content/images/2020/08/dataheader.jpg)
 
-The Unsplash Dataset is made up of over 380,000+ contributing global photographers and data sourced from hundreds of millions of searches across a nearly unlimited number of uses and contexts. Due to the breadth of intent and semantics contained within the Unsplash dataset, it enables new opportunities for research and learning.
+The Unsplash Dataset is made up of over 350,000+ contributing global photographers and data sourced from hundreds of millions of searches across a nearly unlimited number of uses and contexts. Due to the breadth of intent and semantics contained within the Unsplash dataset, it enables new opportunities for research and learning.
 
 The Unsplash Dataset is offered in two datasets:
 
 - the Lite dataset: available for commercial and noncommercial usage, containing 25k nature-themed Unsplash photos, 25k keywords, and 1M searches
-- the Full dataset: available for noncommercial usage, containing 6.8M+ high-quality Unsplash photos, 1M keywords, and over 165M searches
+- the Full dataset: available for noncommercial usage, containing 6.5M+ high-quality Unsplash photos, 1M keywords, and over 160M searches
 
 As the Unsplash library continues to grow, we’ll release updates to the dataset with new fields and new images, with each subsequent release being [semantically versioned](https://semver.org/).
 
