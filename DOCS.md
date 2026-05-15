@@ -1,10 +1,10 @@
 # Unsplash Dataset Documentation
 
-The Unsplash Dataset is composed of multiple TSV files:
+The Unsplash Dataset is composed of multiple CSV files:
 
-## 1 - photos.tsv
+## 1 - photos.csv
 
-The `photos.tsv` dataset has one row per photo. It contains properties of the photo, the name of the contributor, the image URL, and overall stats.
+The `photos.csv` dataset has one row per photo. It contains properties of the photo, the name of the contributor, the image URL, and overall stats.
 
 | Field                       | Description |
 |-----------------------------|-------------|
@@ -40,9 +40,9 @@ The `photos.tsv` dataset has one row per photo. It contains properties of the ph
 | ai_primary_landmark_confidence | Landmark confidence of the 3rd party AI |
 | blur_hash                      | [BlurHash](https://blurha.sh/) hash of the photo |
 
-## 2 - keywords.tsv
+## 2 - keywords.csv
 
-The `keywords.tsv` dataset has one row per photo-keyword pair. It contains data
+The `keywords.csv` dataset has one row per photo-keyword pair. It contains data
 about how a keyword is connected to a photo and the conversions of the photo our search engine for a particular keyword.
 
 | Field                         | Description |
@@ -54,12 +54,12 @@ about how a keyword is connected to a photo and the conversions of the photo our
 | suggested_by_user             | Whether the keyword was added by a user (human) |
 | user_suggestion_source        | The type of user that suggested or set the keyword (photographer, admin or unknown) |
 
-## 3 - collections.tsv
+## 3 - collections.csv
 
 *Note: A collection on Unsplash is a user created grouping of photos. These are similar to boards on Pinterest and can often group photos in complex and creative ways. Another type of collection is topics. Topics are different content-specific photo feeds available
 on the website*
 
-The `collections.tsv` dataset has one row per photo-collection/topic pair. Whenever a photo
+The `collections.csv` dataset has one row per photo-collection/topic pair. Whenever a photo
 belongs to a collection or a topic, it will appear as one row. Each row describes
 when the photo was added to the collection/topic and gives the title of the collection/topic.
 
@@ -71,11 +71,11 @@ when the photo was added to the collection/topic and gives the title of the coll
 | photo_collected_at            | Timestamp of when the photo was added to the collection |
 | collection_type               | Type of the collection (collection or topic) |
 
-## 4 - conversions.tsv
+## 4 - conversions.csv
 
 *Note: a conversion is currently defined as a user selecting an image to download it.*
 
-The `conversions.tsv` dataset has one row per search conversion. The dataset tells you which photo has been downloaded for a search, the country of origin, and an anonymous identifier to indiciate the unique users. The data goes back up to 1 year before the release of each version of the dataset.
+The `conversions.csv` dataset has one row per search conversion. The dataset tells you which photo has been downloaded for a search, the country of origin, and an anonymous identifier to indiciate the unique users. The data goes back up to 1 year before the release of each version of the dataset.
 
 | Field                         | Description |
 |-------------------------------|-------------|
@@ -86,11 +86,11 @@ The `conversions.tsv` dataset has one row per search conversion. The dataset tel
 | anonymous_user_id             | Anonymous user ID |
 | conversion_country            | Country code of the device geolocation |
 
-## 5 - colors.tsv
+## 5 - colors.csv
 
 *Note: The coverage and score data comes from a 3rd party AI*
 
-The `colors.tsv` dataset has one row per major color present in the photo. The dataset tells which colors are contained within a photo, their coverage as a percentage, and a score for how in focus the color is.
+The `colors.csv` dataset has one row per major color present in the photo. The dataset tells which colors are contained within a photo, their coverage as a percentage, and a score for how in focus the color is.
 
 | Field                     | Description |
 |---------------------------|-------------|
