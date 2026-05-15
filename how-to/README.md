@@ -1,6 +1,6 @@
 # How to load the dataset
 
-The dataset is contained in 4 separate TSV files.
+The dataset is contained in 5 separate CSV files.
 
 You can follow these examples to load the dataset in these common formats:
 
