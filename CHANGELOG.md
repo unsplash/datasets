@@ -19,8 +19,8 @@
 
 **Integrity checks (SHA-256):**
 
-  - Lite: ``
-  - Full: ``
+  - Lite: `7af3e90a4983fc87d0ee8c0f8c645349c6011d63efec489cfe734a74ed64d69c`
+  - Full: `2978e2e6439fbe73d69a4819282e9d45537c9ba777ec46a60541cdce786e158b`
 
 ## 1.3.0 (2025-04-16)
 
