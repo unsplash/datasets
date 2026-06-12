@@ -41,6 +41,8 @@ CREATE TABLE unsplash_keywords (
   ai_service_2_confidence float,
   suggested_by_user boolean,
   user_suggestion_source varchar(255),
+  suggested_by_ai_service_3 boolean,
+  confirmed_by_ai_service_3 boolean,
   PRIMARY KEY (photo_id, keyword)
 );
 
@@ -59,7 +61,10 @@ CREATE TABLE unsplash_conversions (
   keyword text,
   photo_id varchar(11),
   anonymous_user_id varchar(255),
-  conversion_country varchar(2)
+  conversion_country varchar(2),
+  device_type varchar(255),
+  search_orientation_filter varchar(255),
+  search_ordering varchar(255)
 );
 
 CREATE TABLE unsplash_colors (

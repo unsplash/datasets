@@ -2,12 +2,12 @@
 
 ![](https://unsplash.com/blog/content/images/2020/08/dataheader.jpg)
 
-The Unsplash Dataset is made up of over 350,000+ contributing global photographers and data sourced from hundreds of millions of searches across a nearly unlimited number of uses and contexts. Due to the breadth of intent and semantics contained within the Unsplash dataset, it enables new opportunities for research and learning.
+The Unsplash Dataset is made up of over 415,000+ contributing global photographers and data sourced from hundreds of millions of searches across a nearly unlimited number of uses and contexts. Due to the breadth of intent and semantics contained within the Unsplash dataset, it enables new opportunities for research and learning.
 
 The Unsplash Dataset is offered in two datasets:
 
-- the Lite dataset: available for commercial and noncommercial usage, containing 25k nature-themed Unsplash photos, 25k keywords, and 1M searches
-- the Full dataset: available for noncommercial usage, containing 6.5M+ high-quality Unsplash photos, 1M keywords, and over 160M searches
+- the Lite dataset: available for commercial and noncommercial usage, containing 25k Unsplash photos, 30k keywords, and 1M searches
+- the Full dataset: available for noncommercial usage, containing 7.4M+ high-quality Unsplash photos, 1.6M keywords, and over 160M searches
 
 As the Unsplash library continues to grow, we’ll release updates to the dataset with new fields and new images, with each subsequent release being [semantically versioned](https://semver.org/).
 
@@ -45,7 +45,7 @@ We're making this data open and available with the hopes of enabling researchers
 
 We'd love to see what you create, whether that's a research paper, a machine learning model, a blog post, or just an interesting discovery in the data. Send us an email at [data@unsplash.com](mailto:data@unsplash.com).
 
-If you're using the dataset in a research paper, you can attribute the dataset as `Unsplash Lite Dataset 1.3.0` or `Unsplash Full Dataset 1.3.0` and link to the permalink [`unsplash.com/data`](https://unsplash.com/data).
+If you're using the dataset in a research paper, you can attribute the dataset as `Unsplash Lite Dataset 1.4.0` or `Unsplash Full Dataset 1.4.0` and link to the permalink [`unsplash.com/data`](https://unsplash.com/data).
 
 ----
 

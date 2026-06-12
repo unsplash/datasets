@@ -1,5 +1,27 @@
 # CHANGELOG.md
 
+## 1.4.0 (2026-06-12)
+
+**New:**
+
+  - Added `suggested_by_ai_service_3` and `confirmed_by_ai_service_3` in the `keywords` dataset
+  - Added `device_type`, `search_orientation_filter` and `search_ordering` in the `conversions` dataset
+
+**Data:**
+
+  - Added ~1M photos to the dataset (submitted up to `2026-01-01`)
+  - Removed unavailable photos that have been removed from the platform
+  - The `conversions` period is now from `2025-01-01` to `2026-01-01`
+
+**Lite dataset link:**
+
+  - Version link: [Version 1.4.0](https://unsplash.com/data/lite/1.4.0)
+
+**Integrity checks (SHA-256):**
+
+  - Lite: `7af3e90a4983fc87d0ee8c0f8c645349c6011d63efec489cfe734a74ed64d69c`
+  - Full: `2978e2e6439fbe73d69a4819282e9d45537c9ba777ec46a60541cdce786e158b`
+
 ## 1.3.0 (2025-04-16)
 
 **Fix:**
