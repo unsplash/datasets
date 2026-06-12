@@ -2,9 +2,9 @@
 
 The Unsplash Dataset is composed of multiple CSV files:
 
-## 1 - photos.csv
+## 1 - photos.tsv
 
-The `photos.csv` dataset has one row per photo. It contains properties of the photo, the name of the contributor, the image URL, and overall stats.
+The `photos.tsv` dataset has one row per photo. It contains properties of the photo, the name of the contributor, the image URL, and overall stats.
 
 | Field                       | Description |
 |-----------------------------|-------------|
@@ -40,9 +40,9 @@ The `photos.csv` dataset has one row per photo. It contains properties of the ph
 | ai_primary_landmark_confidence | Landmark confidence of the 3rd party AI |
 | blur_hash                      | [BlurHash](https://blurha.sh/) hash of the photo |
 
-## 2 - keywords.csv
+## 2 - keywords.tsv
 
-The `keywords.csv` dataset has one row per photo-keyword pair. It contains data
+The `keywords.tsv` dataset has one row per photo-keyword pair. It contains data
 about how a keyword is connected to a photo and the conversions of the photo our search engine for a particular keyword.
 
 | Field                         | Description |
@@ -56,12 +56,15 @@ about how a keyword is connected to a photo and the conversions of the photo our
 | suggested_by_ai_service_3     | The keyword was suggested by another 3rd party AI |
 | confirmed_by_ai_service_3     | The keyword was confirmed to be relevant by another 3rd party AI |
 
-## 3 - collections.csv
+We use different AI services to generate tags. Some are not in use anymore but we still have historical data, some are more recent and
+will only show data for more recent photos.
+
+## 3 - collections.tsv
 
 *Note: A collection on Unsplash is a user created grouping of photos. These are similar to boards on Pinterest and can often group photos in complex and creative ways. Another type of collection is topics. Topics are different content-specific photo feeds available
 on the website*
 
-The `collections.csv` dataset has one row per photo-collection/topic pair. Whenever a photo
+The `collections.tsv` dataset has one row per photo-collection/topic pair. Whenever a photo
 belongs to a collection or a topic, it will appear as one row. Each row describes
 when the photo was added to the collection/topic and gives the title of the collection/topic.
 
@@ -73,11 +76,11 @@ when the photo was added to the collection/topic and gives the title of the coll
 | photo_collected_at            | Timestamp of when the photo was added to the collection |
 | collection_type               | Type of the collection (collection or topic) |
 
-## 4 - conversions.csv
+## 4 - conversions.tsv
 
 *Note: a conversion is currently defined as a user selecting an image to download it.*
 
-The `conversions.csv` dataset has one row per search conversion. The dataset tells you which photo has been downloaded for a search, the country of origin, and an anonymous identifier to indiciate the unique users. The data goes back up to 1 year before the release of each version of the dataset.
+The `conversions.tsv` dataset has one row per search conversion. The dataset tells you which photo has been downloaded for a search, the country of origin, and an anonymous identifier to indiciate the unique users. The data goes back up to 1 year before the release of each version of the dataset.
 
 | Field                         | Description |
 |-------------------------------|-------------|
@@ -89,13 +92,13 @@ The `conversions.csv` dataset has one row per search conversion. The dataset tel
 | conversion_country            | Country code of the device geolocation |
 | device_type                   | Type of device that interacted with the photo |
 | search_orientation_filter     | Orientation (portrait/landscape/all) filter applied to the search |
-| search_ordering               | Order setting for the search results (popular/recent)
+| search_ordering               | Order setting for the search results (popular/recent) |
 
-## 5 - colors.csv
+## 5 - colors.tsv
 
 *Note: The coverage and score data comes from a 3rd party AI*
 
-The `colors.csv` dataset has one row per major color present in the photo. The dataset tells which colors are contained within a photo, their coverage as a percentage, and a score for how in focus the color is.
+The `colors.tsv` dataset has one row per major color present in the photo. The dataset tells which colors are contained within a photo, their coverage as a percentage, and a score for how in focus the color is.
 
 | Field                     | Description |
 |---------------------------|-------------|
