@@ -85,6 +85,9 @@ The `conversions.csv` dataset has one row per search conversion. The dataset tel
 | photo_id                      | Photo ID of the photo that converted |
 | anonymous_user_id             | Anonymous user ID |
 | conversion_country            | Country code of the device geolocation |
+| device_type                   | Type of device that interacted with the photo |
+| search_orientation_filter     | Orientation (portrait/landscape/all) filter applied to the search |
+| search_ordering               | Order setting for the search results (popular/recent)
 
 ## 5 - colors.csv
 
