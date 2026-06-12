@@ -53,6 +53,8 @@ about how a keyword is connected to a photo and the conversions of the photo our
 | ai_service_2_confidence       | Confidence for the keyword from another 3rd party AI (0-100)|
 | suggested_by_user             | Whether the keyword was added by a user (human) |
 | user_suggestion_source        | The type of user that suggested or set the keyword (photographer, admin or unknown) |
+| suggested_by_ai_service_3     | The keyword was suggested by another 3rd party AI |
+| confirmed_by_ai_service_3     | The keyword was confirmed to be relevant by another 3rd party AI |
 
 ## 3 - collections.csv
 
